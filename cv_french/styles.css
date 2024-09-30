@@ -1,0 +1,120 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-container {
+    width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Style de l'en-tête */
+/* Style de l'en-tête */
+header {
+    text-align: left;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    position: relative; /* Nécessaire pour positionner LinkedIn et GitHub à droite */
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    display: flex; /* Utilisation de Flexbox pour aligner icône et texte */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #007BFF; /* Couleur des icônes */
+}
+
+/* Positionnement de LinkedIn et GitHub sur une seule ligne */
+.contact-info .links {
+    display: flex; /* Flexbox pour mettre les liens sur la même ligne */
+    justify-content: flex-end; /* Aligner à droite */
+}
+
+.contact-info .links a {
+    margin-left: 20px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info .links a:hover {
+    text-decoration: underline;
+}
+
+
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Espacement entre les sections */
+section {
+    margin-bottom: 30px;
+}
+
+p, ul, li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Listes */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Liens */
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour afficher les langues sur une seule ligne */
+section.langues ul {
+    display: flex; /* Utilisation de Flexbox pour aligner les langues horizontalement */
+    justify-content: space-between; /* Espacement régulier entre les langues */
+    list-style-type: none; /* Supprimer les puces de la liste */
+    padding: 0; /* Supprimer l'espace par défaut de la liste */
+}
+
+section.langues li {
+    margin-right: 20px; /* Espacement entre chaque langue */
+    font-size: 16px; /* Ajustement de la taille du texte */
+}
